@@ -23,15 +23,6 @@ public class FileStore {
 	
 	static FileActions fa;
 	
-	String key;
-	
-	//JSON object values
-	int id;
-	String name;
-	
-	
-	long ttl;
-	
 	public FileStore() {
 		fa=new FileActions();
 		fa.createFile();
